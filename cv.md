@@ -2,24 +2,32 @@
 
 ## Contacts
 
-**E-mail:** kytaitsev@gmail.com
-**Telegram:** @mai_kai
+* **E-mail:** kytaitsev@gmail.com
+* **Telegram:** @mai_kai
+* **Discord:** Valentink
 
-##About myself:##
+## About myself:
+
 I want to improve and refresh my web development skills.
 
-##Code example:##
+## Code example:
+```
+function isDivideBy(number, a, b) {
+  if ((number % a === 0) && (number % b === 0)) {
+    return true
+  } else {
+  return false
+  }
+}
+```
 
+## Work experience:
+Working as freelancer.
 
-##Work experience:##
-Nothing yet…
-
-##Education and courses:##
+## Education and courses:
 * CS50 video course 1
 * JS, CSS, HTML, Git video courses on YouTube channel Glo Academy 2
 * JavaScript https://learn.javascript.ru/ 3
 
-##Languages:##
-* Ukrainian - fluent
-* Russian - fluent
-* English - intermediate
+## Language:
+English - intermediate
