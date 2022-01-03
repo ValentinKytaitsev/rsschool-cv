@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap');
+
+/* CSS rules to specify families */
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+:root {
+  --main-bg-color: #fff;
+  --photo-layer-color: #212225;
+--under-photo-color: #1a1b1c;
+--grey-block-color: #ebebeb;
+--orange-color: #ffca05;
+--name-text-color: #242439;
+  --dark-text-color: #1a1b1c;
+  --grey-text-color: #555555;
+  --white-text-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  /*font-family: 'Khula', sans-serif;*/
+  /*height: 100vh;*/
+  /*overflow: hidden;*/
+  margin: 0;
+  /*text-align: center;*/
+}
+
+.container {
+  background-color: var(--main-bg-color);
+  width: 1024px;
+  /*height: 100vh;*/
+  margin: 0 auto;
+
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+.photo {
+  width: 33%;
+  background-color: var(--photo-layer-color);
+}
+
+.profile {
+  width: 67%;
+  background-color: var(--grey-block-color);
+  text-align: left;
+  padding: 3rem 2rem 3rem 2rem;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+
+h1 {
+  font-weight: normal;
+  font-size: 3rem;
+  color: var(--name-text-color);
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+h2 {
+  display: inline-block;
+ color:var(--dark-text-color);
+  font-size: 1rem;
+text-transform: uppercase;
+padding: 5px;
+background-color: var(--orange-color);
+border-radius: 3px;
+}
+
+h3 {
+  color:var(--dark-text-color);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+
+h3:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 50px; /* Change this to whatever width you want. */
+  padding-top: 1rem; /* This creates some space between the element and the border. */
+  border-bottom: 5px solid var(--orange-color); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.profile p {
+  font-family: 'Montserrat', sans-serif;
+  color:var(--grey-text-color);
+  font-size: 1rem;
+}
+
+
+
+main {
+  background-color: var(--grey-block-color);
+  text-align: left;
+  color: var(--grey-text-color);
+  padding: 3rem 2rem 3rem 2rem;
+}
+
+
+
+
+
+footer {
+  
+  background-color: var(--grey-block-color);
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer div {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color:var(--name-text-color);
+}
+
+footer img {
+  height: 45px;
+  width: auto;
+}
+
+
+
